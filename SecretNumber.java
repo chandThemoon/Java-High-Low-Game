@@ -8,8 +8,8 @@ public class SecretNumber {
 	public static void main(String [] args){
 		int guess, rand;
 		int count =1;
-		Random rnd = new Random(System.currentTimeMillis()); // generatingr random num everytime.
-		 rand = 1+ rnd.nextInt(100); // generates num b/w 1 to 100.		
+		Random rnd = new Random(System.currentTimeMillis()); // generating random num everytime.
+		rand = 1+ rnd.nextInt(100); // generates num b/w 1 to 100.		
 		Scanner input = new Scanner(System.in);		
 		System.out.print("Enter your guess: ");
 		guess = input.nextInt();
